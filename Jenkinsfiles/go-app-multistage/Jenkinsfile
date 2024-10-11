@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('dev'){
+            steps{
+                git 'https://github.com/Sergio-bp/destrozos.git'
+            }
+        }
+        stage('UAT'){
+            steps{
+                git 'https://github.com/Sergio-bp/destrozos.git'
+            }
+        }
+    }
+}
