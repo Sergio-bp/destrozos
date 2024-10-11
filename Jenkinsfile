@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Run'){
             steps{
-                sh 'cd /home/sbarrios/.jenkins/workspace/go-full-pipeline && go-webapp-sample &'
+                sh 'cd /var/jenkins_home/go-full-pipeline && go-webapp-sample &'
             }
         }
     }
