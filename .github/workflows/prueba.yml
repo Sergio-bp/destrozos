@@ -2,7 +2,7 @@ name: ARC test
 on: workflow_dispatch
 jobs:
     test:
-        runs-on: arc-fertwins
+        runs-on: arc-destrozos
         steps:
             - uses: actions/checkout@v4
             - run: echo "Funciona en ARC" && uname -a
